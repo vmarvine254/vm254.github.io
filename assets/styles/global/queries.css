@@ -1,0 +1,244 @@
+.wrapper {
+    min-width: 18.75rem;
+}
+
+/* 300px */
+@media screen and (min-width: 18.75rem) {}
+
+/* 350px */
+@media screen and (min-width: 21.875rem) {
+    .hero-section>h1 {
+        margin: 1.875rem 0rem;
+    }
+
+    .hero>div {
+        justify-content: center;
+    }
+
+    .hero>div>a {
+        margin-left: 3.125rem;
+    }
+
+    .why-me>div {
+        width: calc(100% - 30px);
+    }
+
+    .why-me .txt-wrapper,
+    .why-me .img-wrapper {
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+
+    .why-me .txt-wrapper>div {
+        justify-content: flex-start;
+    }
+
+    .why-me .txt-wrapper>div>a:last-child {
+        margin-left: 3.125rem;
+    }
+}
+
+/* 400px */
+@media screen and (max-width: 25rem) {
+    :root {
+        --menu-content-width: 20rem;
+    }
+}
+
+@media screen and (min-width: 25rem) {
+    :root {
+        --menu-content-width: 20rem;
+    }
+
+    footer,
+    .r-n-c,
+    .hero,
+    .cta-rem>div {
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+
+    .l-n-c {
+        padding-left: 1.875rem;
+    }
+
+    footer .footer-policies>a:not(:first-child) {
+        margin-left: 1.25rem;
+    }
+}
+
+/* 450px */
+@media screen and (min-width: 28.125rem) {
+    .hero {
+        height: 100vh;
+        max-height: 30rem;
+    }
+
+    .hero>p {
+        width: 24rem;
+    }
+}
+
+/* 560px */
+@media screen and (min-width: 35rem) {
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    h2 {
+        font-size: 2.65rem;
+    }
+
+    h3 {
+        font-size: 2.05rem;
+    }
+
+    .hero {
+        height: 100vh;
+        max-height: 32rem;
+    }
+}
+
+/* 660px */
+@media screen and (min-width: 41.25rem) {
+    h1 {
+        font-size: 3.85rem;
+    }
+
+    .hero {
+        padding-left: 3.125rem;
+        padding-right: 3.125rem;
+        height: 100vh;
+        max-height: 35rem;
+    }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+    .hero {
+        padding-left: 6.25rem;
+        padding-right: 6.25rem;
+        height: 100vh;
+        max-height: 37.5rem;
+    }
+
+    .why-me>div {
+        flex-direction: row;
+        align-items: center;
+        padding: 1.875rem 0rem;
+    }
+
+    .why-me .txt-wrapper,
+    .why-me .img-wrapper {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .why-me .txt-wrapper {
+        padding: 0rem 1.875rem;
+    }
+
+    .why-me .img-wrapper {
+        padding-right: 1.875rem;
+    }
+
+    footer {
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    footer .footer-policies {
+        margin: 0;
+    }
+}
+
+/* 850px */
+@media screen and (min-width: 53.125rem) {
+    .l-n-c {
+        padding-right: 1.875rem;
+    }
+
+    .n-l-wrapper,
+    .r-n-c .cta-btn {
+        display: flex;
+    }
+
+    .why-me {
+        padding-left: 1.875rem;
+    }
+
+    .why-me>div {
+        align-self: auto;
+        width: calc(100% - 50px);
+    }
+
+    .why-me .img-wrapper {
+        padding-right: 0rem;
+        margin-right: -1.875rem;
+    }
+}
+
+/* 990px */
+@media screen and (min-width: 61.875rem) {
+    .r-n-c .btn-1 {
+        display: flex;
+    }
+
+    .hero {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+        height: 100vh;
+        max-height: 40.625rem;
+    }
+
+    .why-me>div {
+        width: calc(100% - 100px);
+    }
+}
+
+/* 1200px */
+@media screen and (min-width: 75rem) {
+
+    footer,
+    .r-n-c,
+    .l-n-c {
+        padding-left: 3.125rem;
+        padding-right: 3.125rem;
+    }
+
+    .hero {
+        padding-left: 9.375rem;
+        padding-right: 9.375rem;
+        height: 100vh;
+        max-height: 42.5rem;
+    }
+
+    .why-me {
+        padding: 3.125rem 0rem;
+        padding-left: 3.125rem;
+    }
+
+    .why-me>div {
+        width: calc(100% - 200px);
+        padding: 3.125rem 0rem;
+    }
+
+    .why-me .txt-wrapper {
+        padding: 0rem 3.125rem;
+    }
+
+    .why-me .img-wrapper {
+        margin-right: -50px;
+    }
+
+    .cta-rem {
+        margin-top: 3.125rem;
+    }
+
+    .cta-rem>div {
+        padding: 4.6875rem 3.125rem;
+    }
+}
