@@ -172,12 +172,19 @@
 
     .why-me>div {
         align-self: auto;
-        width: calc(100% - 50px);
+        width: calc(100% - 70px);
     }
 
     .why-me .img-wrapper {
         padding-right: 0rem;
         margin-right: -1.875rem;
+    }
+}
+
+/* 900px */
+@media screen and (min-width: 56.25rem) {
+    .why-me>div {
+        width: calc(100% - 120px);
     }
 }
 
@@ -195,7 +202,7 @@
     }
 
     .why-me>div {
-        width: calc(100% - 100px);
+        width: calc(100% - 150px);
     }
 }
 
