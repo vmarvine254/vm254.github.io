@@ -1,0 +1,101 @@
+.hero {
+    background: var(--accent-color);
+    padding: 6.25rem 1.25rem;
+    width: 100%;
+    max-width: max-content;
+    color: var(--primary-txt-color);
+}
+
+.hero>h1 {
+    margin: 1.25rem 0rem;
+    text-align: center;
+}
+
+.hero>div {
+    width: 100%;
+    margin-top: 1.875rem;
+    justify-content: space-between;
+}
+
+.why-me {
+    width: 100%;
+    position: relative;
+    padding: 1.875rem 0rem;
+}
+
+.why-me::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: var(--variant-color);
+    z-index: -1;
+}
+
+.why-me>div {
+    align-self: flex-end;
+    background: var(--accent-color);
+    width: calc(100% - 20px);
+    padding: 1.875rem 0rem;
+}
+
+.why-me .txt-wrapper {
+    padding: 0rem 1.25rem;
+    color: var(--primary-txt-color);
+}
+
+.why-me .txt-wrapper>span {
+    position: relative;
+    margin-left: 40px;
+}
+
+.why-me .txt-wrapper>span::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: var(--primary-txt-color);
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.why-me .txt-wrapper>h3 {
+    margin: 1.875rem 0rem;
+}
+
+.why-me .txt-wrapper>div {
+    margin-top: 1.875rem;
+}
+
+.why-me .img-wrapper {
+    margin-top: 1.875rem;
+    padding: 0rem 1.25rem;
+}
+
+.cta-rem {
+    width: 100%;
+    height: max-content;
+    background-color: var(--variant-color);
+    background-image: url(../css-img/cta-rem-bg.png);
+    background-size: contain;
+    background-repeat: repeat;
+    margin-top: 1.875rem;
+    position: relative;
+}
+
+.cta-rem>div {
+    position: relative;
+    max-width: 37.5rem;
+    padding: 3.125rem 1.25rem;
+    background: var(--variant-color);
+    color: var(--primary-txt-color);
+}
+
+.cta-rem h3 {
+    text-align: center;
+    margin: 1.875rem 0rem;
+    max-width: 21.875rem;
+}
