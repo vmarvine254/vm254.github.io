@@ -159,6 +159,57 @@
     margin-right: 10px;
 }
 
+.portfolio {
+    width: 100%;
+    margin-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+.portfolio::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    background: var(--variant-color);
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.portfolio>.title {
+    align-self: flex-end;
+    padding: 0.625rem 1.25rem;
+    color: var(--primary-txt-color);
+}
+
+.portfolio>.content>.txt-wrapper {
+    margin-top: 1.875rem;
+    width: 100%;
+    padding-right: 1.25rem;
+    color: var(--primary-txt-color);
+}
+
+.portfolio>.content>.txt-wrapper>h3 {
+    margin: 1.875rem 0rem;
+}
+
+.portfolio>.content>.txt-wrapper>div {
+    margin-top: 1.875rem;
+}
+
+.portfolio>.content>.img-wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: max-content;
+}
+
+.portfolio>.content>.img-wrapper img {
+    width: 250px;
+    margin-right: 1.25rem;
+}
+
 .cta-rem {
     width: 100%;
     height: max-content;
