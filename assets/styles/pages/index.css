@@ -79,6 +79,7 @@
     width: 100%;
     position: relative;
     padding: 1.875rem 1.25rem;
+    padding-right: 0;
     margin-top: 1.875rem;
 }
 
@@ -139,7 +140,7 @@
     height: max-content;
 }
 
-.services>.content>div:not(:last-child) {
+.services>.content>div {
     margin-right: 1.25rem;
 }
 
