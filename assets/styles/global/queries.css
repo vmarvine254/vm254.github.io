@@ -127,7 +127,7 @@
     }
 
     .portfolio>.content>.img-wrapper img {
-        width: 300px;
+        width: 90%;
     }
 }
 
@@ -272,7 +272,7 @@
     }
 
     .portfolio>.content>.img-wrapper img {
-        width: 100%;
+        width: 80%;
     }
 }
 
