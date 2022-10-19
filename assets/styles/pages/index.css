@@ -127,6 +127,7 @@
 .services>.content {
     padding-top: 1.875rem;
     overflow-x: hidden;
+    height: max-content;
 }
 
 .services>.content>div {
