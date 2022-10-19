@@ -172,7 +172,7 @@
 
     .why-me>div {
         align-self: auto;
-        width: calc(100% - 70px);
+        width: calc(100% - 50px);
     }
 
     .why-me .img-wrapper {
@@ -184,7 +184,7 @@
 /* 900px */
 @media screen and (min-width: 56.25rem) {
     .why-me>div {
-        width: calc(100% - 120px);
+        width: calc(100% - 100px);
     }
 }
 
