@@ -140,7 +140,7 @@
 }
 
 .services>.content>div:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 1.25rem;
 }
 
 .services>.content>div>span {
