@@ -75,6 +75,88 @@
     padding: 0rem 1.25rem;
 }
 
+.services {
+    width: 100%;
+    position: relative;
+    padding: 1.875rem 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    background: var(--variant-color);
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.services>.title {
+    color: var(--primary-txt-color);
+    max-width: 300px;
+}
+
+.services>.title>p {
+    margin: 1.25rem 0rem;
+}
+
+.services>.title .slider span {
+    width: 15px;
+    height: 15px;
+    border: 0.0625rem solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.services>.title .slider span:not(:first-child) {
+    margin-left: 8px;
+}
+
+.services>.title .slider .active {
+    border-color: var(--primary-txt-color);
+}
+
+.services>.title .slider span i {
+    width: 7px;
+    height: 7px;
+    background: var(--primary-txt-color);
+}
+
+.services>.content {
+    padding-top: 1.875rem;
+    overflow-x: hidden;
+}
+
+.services>.content>div {
+    background: var(--accent-color);
+    color: var(--primary-txt-color);
+    padding: 1.875rem 1.25rem;
+    min-width: 280px;
+    max-width: 300px;
+    height: max-content;
+}
+
+.services>.content>div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.services>.content>div>span {
+    margin: 1.25rem 0rem;
+    font-size: 1.2rem;
+}
+
+.services>.content>div>a {
+    margin-top: 20px;
+    color: var(--primary-txt-color);
+    text-decoration: underline;
+}
+
+.services>.content>div>a>svg {
+    margin-right: 10px;
+}
+
 .cta-rem {
     width: 100%;
     height: max-content;
