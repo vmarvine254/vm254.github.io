@@ -68,6 +68,10 @@
         padding-right: 1.875rem;
     }
 
+    .services>.content>div:not(:last-child) {
+        margin-right: 1.875rem;
+    }
+
     .services>.content>div>span {
         margin: 1.875rem 0rem;
     }
