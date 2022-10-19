@@ -24,11 +24,18 @@
     }
 
     .why-me .txt-wrapper,
-    .why-me .img-wrapper {
+    .why-me .img-wrapper,
+    .portfolio>.title {
         padding-left: 1.875rem;
         padding-right: 1.875rem;
     }
-    .services{
+
+    .portfolio>.content>.txt-wrapper {
+        padding-right: 1.875rem;
+    }
+
+    .services,
+    .portfolio {
         padding-left: 1.875rem;
     }
 }
@@ -82,6 +89,18 @@
         margin-top: 1.875rem;
     }
 
+    .portfolio>.content>.txt-wrapper>div {
+        justify-content: flex-start;
+    }
+
+    .portfolio>.content>.txt-wrapper>div>a:last-child {
+        margin-left: 3.125rem;
+    }
+
+    .portfolio>.content>.img-wrapper img {
+        margin-right: 1.875rem;
+    }
+
     footer .footer-policies>a:not(:first-child) {
         margin-left: 1.25rem;
     }
@@ -96,6 +115,19 @@
 
     .hero>p {
         width: 24rem;
+    }
+}
+
+/* 500px */
+@media screen and (min-width: 31.25rem) {
+    .portfolio>.title {
+        width: calc(50% + 0.9375rem);
+        padding: 0.625rem 0rem;
+        padding-left: 1.875rem;
+    }
+
+    .portfolio>.content>.img-wrapper img {
+        width: 300px;
     }
 }
 
@@ -117,6 +149,7 @@
         height: 100vh;
         max-height: 32rem;
     }
+
 }
 
 /* 660px */
@@ -177,6 +210,22 @@
         margin-left: 30px;
     }
 
+    .portfolio>.content {
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .portfolio>.content>div {
+        width: 50%;
+    }
+
+    .portfolio>.content>.txt-wrapper {
+        margin: 0;
+        padding: 0;
+        margin-right: 1.875rem;
+    }
+
     footer {
         flex-direction: row !important;
         align-items: center !important;
@@ -212,6 +261,19 @@
         padding-right: 0rem;
         margin-right: -1.875rem;
     }
+
+    .portfolio>.content>.txt-wrapper {
+        margin: 0;
+        padding-right: 1.875rem;
+    }
+
+    .portfolio>.content>.img-wrapper {
+        padding: 0rem 0rem;
+    }
+
+    .portfolio>.content>.img-wrapper img {
+        width: 100%;
+    }
 }
 
 /* 900px */
@@ -236,6 +298,18 @@
 
     .why-me>div {
         width: calc(100% - 150px);
+    }
+
+    .portfolio>.content>.txt-wrapper {
+        width: 40%;
+    }
+
+    .portfolio>.content>.img-wrapper {
+        width: 60%;
+    }
+
+    .portfolio>.content>.img-wrapper img {
+        width: 70%;
     }
 }
 
@@ -290,6 +364,20 @@
 
     .services .web {
         margin-top: 3.125rem;
+    }
+
+    .portfolio {
+        margin-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        padding-left: 3.125rem;
+    }
+
+    .portfolio>.title {
+        width: calc(50% + 1.5625rem);
+    }
+
+    .portfolio>.content>.img-wrapper img {
+        width: 60%;
     }
 
     .cta-rem {
