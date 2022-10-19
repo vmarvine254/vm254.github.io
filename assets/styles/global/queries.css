@@ -24,10 +24,12 @@
     }
 
     .why-me .txt-wrapper,
-    .why-me .img-wrapper,
-    .services {
+    .why-me .img-wrapper {
         padding-left: 1.875rem;
         padding-right: 1.875rem;
+    }
+    .services{
+        padding-left: 1.875rem;
     }
 }
 
@@ -274,6 +276,7 @@
 
     .services {
         padding: 3.125rem;
+        padding-right: 0;
         margin-top: 3.125rem;
     }
 
