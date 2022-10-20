@@ -1,11 +1,11 @@
 :root {
-    --body-color: #002B26;
-    --primary-txt-color: #FFF;
-    --dark-txt-color: #000;
-    --light-txt-color: #AAA;
-    --accent-color: #2F0F0F;
-    --primary-btn-color: #fffb00;
-    --variant-color: #004B3E;
+    --body-color: #1c2224;
+    --primary-txt-color: #ffffff;
+    --dark-txt-color: #000000;
+    --light-txt-color: #999;
+    --accent-color: #152d32;
+    --primary-btn-color: #00d4ff;
+    --variant-color: #233032;
 
     --primary-font-family: "Molengo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --secondary-font-family: "Halant", 'Times New Roman', Times, serif;
@@ -18,6 +18,15 @@
     --menu-content-width: 100%;
 }
 
+.light-mode{
+    --body-color: #ffffff;
+    --primary-txt-color: #000000;
+    --dark-txt-color: #ffffff;
+    --light-txt-color: #555;
+    --accent-color: #a6c7ff;
+    --primary-btn-color: #04f;
+    --variant-color: #c4dfff;
+}
 *,
 *::before,
 *::after {
