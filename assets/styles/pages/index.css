@@ -263,9 +263,8 @@
 
 .process .container .stage-info {
     color: var(--primary-txt-color);
-    padding: 1.25rem 1.25rem;
-    padding-top: 0rem;
-    padding-bottom: 1.875rem;
+    padding: 1.875rem 1.25rem;
+    padding-bottom: 0rem;
 }
 
 .process .container .stage-info .txt-wrapper {
