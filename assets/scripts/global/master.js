@@ -33,15 +33,19 @@ function darkMode() {
         document.body.classList.add("light-mode");
         localStorage.setItem("lightMode", "true");
     }
+
     lightModeDisable = () => {
         document.body.classList.remove("light-mode");
         localStorage.setItem("lightMode", null);
     }
+
     if (lightMode === "true") {
         lightModeEnable();
     }
+
     lightModeBtn.addEventListener("click", () => {
         lightMode = localStorage.getItem("lightMode");
+
         if (lightMode == "true") {
             lightModeDisable();
         } else {
