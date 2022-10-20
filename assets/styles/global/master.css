@@ -82,7 +82,7 @@ a {
 }
 
 .cta-btn {
-    min-width: max-content;
+    min-width: max-content !important;
     background: var(--primary-btn-color);
     color: var(--dark-txt-color);
     padding: var(--btn-padding);
