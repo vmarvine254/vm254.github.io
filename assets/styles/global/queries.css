@@ -180,6 +180,7 @@
         height: 100vh;
         max-height: 32rem;
     }
+
     .portfolio>.content>.img-wrapper img {
         max-width: 400px;
     }
@@ -197,6 +198,7 @@
         height: 100vh;
         max-height: 35rem;
     }
+
     .portfolio>.content>.img-wrapper img {
         max-width: 420px;
     }
