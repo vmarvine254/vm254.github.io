@@ -96,7 +96,6 @@
 
 .services>.title {
     color: var(--primary-txt-color);
-    max-width: 300px;
 }
 
 .services>.title>p {
