@@ -178,6 +178,67 @@
 }
 
 .portfolio>.title {
+    width: 100%;
+}
+
+.portfolio>.title>h3 {
+    text-align: right;
+    padding: 0.625rem 0rem;
+    padding-right: 1.25rem;
+    color: var(--primary-txt-color);
+}
+
+.portfolio>.content {
+    width: 100%;
+    padding-left: 1.25rem;
+}
+
+.portfolio>.content>.img-wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: max-content;
+}
+
+.portfolio>.content>.img-wrapper img {
+    margin-right: 1.25rem;
+    width: calc(100% - 1.25rem);
+    max-width: 450px;
+}
+
+.portfolio>.content>.txt-wrapper {
+    margin-top: 1.875rem;
+    width: 100%;
+    padding-right: 1.25rem;
+    color: var(--primary-txt-color);
+}
+
+.portfolio>.content>.txt-wrapper>h3 {
+    margin: 1.25rem 0rem;
+}
+
+.portfolio>.content>.txt-wrapper>div {
+    margin-top: 1.25rem;
+}
+
+/* .portfolio {
+    width: 100%;
+    margin-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    position: relative;
+}
+
+.portfolio::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    background: var(--variant-color);
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.portfolio>.title {
     align-self: flex-end;
     padding: 0.625rem 1.25rem;
     color: var(--primary-txt-color);
@@ -211,7 +272,7 @@
 .portfolio>.content>.img-wrapper img {
     margin-right: 1.25rem;
     max-width: 280px;
-}
+} */
 
 .process {
     width: 100%;
