@@ -37,18 +37,21 @@ body {
     line-height: var(--default-line-height);
     background: var(--body-color);
 }
-h1{
+
+h1 {
     font-size: 2.8rem;
     line-height: var(--heading-line-height);
     font-weight: 500;
     font-family: var(--secondary-font-family);
 }
-h3{
+
+h3 {
     font-size: 1.8rem;
     font-weight: 400;
     font-family: var(--primary-font-family);
     line-height: var(--heading-line-height);
 }
+
 a {
     text-decoration: none;
 }
@@ -91,7 +94,8 @@ a {
     outline: none;
     cursor: pointer;
 }
-.btn-2{
+
+.btn-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,6 +109,7 @@ a {
     position: relative;
     padding: var(--btn-padding);
 }
+
 .btn-1 {
     display: flex;
     align-items: center;
