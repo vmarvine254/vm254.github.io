@@ -31,12 +31,15 @@
         padding-right: 1.875rem;
     }
 
-    .portfolio>.content>.txt-wrapper {
+    .portfolio>.content>.txt-wrapper,
+    .testimony {
         padding-right: 1.875rem;
     }
 
     .services,
-    .portfolio>.content {
+    .portfolio>.content,
+    .testimony>.l-t-wrapper,
+    .testimony>.r-t-wrapper {
         padding-left: 1.875rem;
     }
 
@@ -77,7 +80,9 @@
         margin-left: 3.125rem;
     }
 
-    .services>.content>div {
+    .services>.content>div,
+    .testimony>.l-t-wrapper,
+    .testimony>.r-t-wrapper {
         padding-left: 1.875rem;
         padding-right: 1.875rem;
     }
@@ -271,6 +276,42 @@
         padding-top: 0rem;
     }
 
+    .testimony {
+        width: 100%;
+        padding: 3.125rem 1.875rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .testimony>.l-t-wrapper {
+        width: 70%;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        padding-left: 3.125rem;
+    }
+
+    .testimony>.r-t-wrapper {
+        width: 30%;
+        margin-top: 0;
+        padding-right: 3.125rem;
+    }
+
+    .l-slider,
+    .r-slider {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .l-slider {
+        left: 1.25rem;
+    }
+
+    .r-slider {
+        right: 1.25rem;
+        margin-left: 0rem;
+    }
+
     footer {
         flex-direction: row !important;
         align-items: center !important;
@@ -386,6 +427,25 @@
     .process .container .stage-info .txt-wrapper {
         width: 55%;
     }
+
+    .testimony>.l-t-wrapper {
+        width: 65%;
+        padding-left: 5rem;
+        padding-right: 3.125rem;
+    }
+
+    .testimony>.r-t-wrapper {
+        width: 35%;
+        padding-right: 5rem;
+    }
+
+    .l-slider {
+        left: 1.875rem;
+    }
+
+    .r-slider {
+        right: 1.875rem;
+    }
 }
 
 /* 990px */
@@ -420,6 +480,10 @@
 
     .process .container .stage-info .txt-wrapper {
         width: 45%;
+    }
+
+    .testimony #sp-font {
+        font-size: 6.5rem;
     }
 }
 
@@ -513,6 +577,31 @@
 
     .process .container .stage-info .img-wrapper {
         margin-left: -6.25rem;
+    }
+
+    .testimony {
+        padding: 6.25rem 3.125rem;
+        margin-top: 3.125rem;
+    }
+
+    .testimony>.l-t-wrapper {
+        padding: 3.125rem 6.25rem;
+    }
+
+    .testimony>.r-t-wrapper {
+        padding: 0rem 3.125rem;
+    }
+
+    .testimony #sp-font {
+        font-size: 8rem;
+    }
+
+    .l-slider {
+        left: 3.125rem;
+    }
+
+    .r-slider {
+        right: 3.125rem;
     }
 
     .cta-rem {
