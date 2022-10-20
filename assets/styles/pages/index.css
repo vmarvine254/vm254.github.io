@@ -313,6 +313,84 @@
     background: var(--primary-txt-color);
 }
 
+.testimony {
+    width: 100%;
+    position: relative;
+    margin-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-right: 1.25rem;
+}
+
+.testimony::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    background: var(--variant-color);
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.testimony>.l-t-wrapper {
+    padding: 0rem 1.25rem;
+    background: var(--body-color);
+    width: 100%;
+}
+
+.testimony>.l-t-wrapper>p {
+    margin: 1.875rem 0rem;
+    color: var(--primary-txt-color);
+}
+
+.testimony>.l-t-wrapper>span {
+    color: var(--light-txt-color);
+}
+
+.testimony>.r-t-wrapper {
+    margin-top: 1.875rem;
+    width: 100%;
+    padding: 0rem 1.25rem;
+}
+
+.testimony #sp-font {
+    line-height: 1;
+    font-size: 5rem;
+    color: var(--primary-btn-color);
+    font-style: normal;
+}
+
+.testimony>.r-t-wrapper>p {
+    color: var(--primary-txt-color);
+    margin: 1.25rem 0rem;
+}
+
+.testimony>.r-t-wrapper>a {
+    color: var(--primary-txt-color);
+    text-decoration: underline;
+}
+
+.testimony>.r-t-wrapper>a>svg {
+    margin-right: 0.625rem;
+}
+
+.testimony>.slider {
+    align-self: flex-end;
+    margin-top: 1.25rem;
+}
+
+.l-slider,
+.r-slider {
+    background: var(--primary-txt-color);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.r-slider {
+    margin-left: 1.875rem;
+}
+
 .cta-rem {
     width: 100%;
     height: max-content;
