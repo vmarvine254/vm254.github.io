@@ -209,6 +209,100 @@
     margin-right: 1.25rem;
 }
 
+.process {
+    width: 100%;
+    margin-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    position: relative;
+}
+
+.process::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--variant-color);
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+.process>.title {
+    width: 70%;
+    color: var(--primary-txt-color);
+    text-align: right;
+    padding: 0.625rem 0rem;
+    padding-right: 0.625rem;
+}
+
+.process .container .stage-title {
+    justify-content: space-around;
+    padding: 1.25rem 1.25rem;
+    background: var(--body-color);
+}
+
+.process .container .stage-title .active-stage {
+    width: 36px;
+    height: 36px;
+    background: var(--accent-color);
+    color: var(--primary-txt-color);
+    font-size: 1.0rem;
+}
+
+.process .container .stage-title .inactive-stage {
+    width: 24px;
+    height: 24px;
+    background: var(--variant-color);
+    color: var(--variant-color-black-555);
+    font-size: 0.875rem;
+}
+
+.process .container .stage-title p .txt {
+    display: none;
+}
+
+.process .container .stage-info {
+    color: var(--primary-txt-color);
+    padding: 1.25rem 1.25rem;
+    padding-top: 0rem;
+    padding-bottom: 1.875rem;
+}
+
+.process .container .stage-info .txt-wrapper {
+    padding-top: 1.25rem;
+}
+
+.process .container .stage-info .txt-wrapper>h3 {
+    margin: 1.25rem 0rem;
+}
+
+.process .container .stage-info .txt-wrapper>div {
+    width: 100%;
+    margin-top: 1.25rem;
+}
+
+.process .container .stage-info .txt-wrapper>div>.slider>span {
+    width: 15px;
+    height: 15px;
+    border: 0.0625rem solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.process .container .stage-info .txt-wrapper>div>.slider span:not(:first-child) {
+    margin-left: 8px;
+}
+
+.process .container .stage-info .txt-wrapper>div>.slider .active {
+    border-color: var(--primary-txt-color);
+}
+
+.process .container .stage-info .txt-wrapper>div>.slider span i {
+    width: 7px;
+    height: 7px;
+    background: var(--primary-txt-color);
+}
+
 .cta-rem {
     width: 100%;
     height: max-content;
