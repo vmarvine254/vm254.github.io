@@ -25,7 +25,9 @@
 
     .why-me .txt-wrapper,
     .why-me .img-wrapper,
-    .portfolio>.title {
+    .portfolio>.title,
+    .process .container .stage-title,
+    .process .container .stage-info {
         padding-left: 1.875rem;
         padding-right: 1.875rem;
     }
@@ -37,6 +39,10 @@
     .services,
     .portfolio {
         padding-left: 1.875rem;
+    }
+
+    .process>.title {
+        width: 70%;
     }
 }
 
@@ -101,6 +107,15 @@
         margin-right: 1.875rem;
     }
 
+    .process>.title {
+        width: 60%;
+    }
+    .process .container .stage-info .txt-wrapper div {
+        justify-content: flex-start;
+    }
+    .process .container .stage-info .txt-wrapper div>a:first-child {
+        margin-right: 3.125rem;
+    }
     footer .footer-policies>a:not(:first-child) {
         margin-left: 1.25rem;
     }
@@ -115,6 +130,10 @@
 
     .hero>p {
         width: 24rem;
+    }
+
+    .process>.title {
+        width: 50%;
     }
 }
 
@@ -226,6 +245,23 @@
         margin-right: 1.875rem;
     }
 
+    .process .container .stage-info {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .process .container .stage-info>div {
+        width: 50%;
+    }
+
+    .process .container .stage-info>div:last-child {
+        margin-left: 1.25rem;
+    }
+
+    .process .container .stage-info .txt-wrapper {
+        padding-top: 0rem;
+    }
+
     footer {
         flex-direction: row !important;
         align-items: center !important;
@@ -311,6 +347,71 @@
     .portfolio>.content>.img-wrapper img {
         width: 70%;
     }
+
+
+    .process .container .stage-info {
+        background: var(--accent-color);
+        padding-top: 1.875rem;
+    }
+
+    .process .container .stage-info>div:last-child {
+        margin-left: 1.875rem;
+    }
+
+    .process .container {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+
+    .process .container .stage-title {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 20%;
+        margin-right: 1.25rem;
+        padding: 0;
+        padding-left: 1.875rem;
+        background: transparent;
+    }
+
+    .process .container .stage-title .active-stage {
+        width: max-content;
+        height: max-content;
+        background: transparent;
+        border-left: 0.25rem solid var(--primary-txt-color);
+        color: var(--primary-txt-color);
+        padding: 1.25rem 1.875rem;
+        font-size: 1.0rem;
+    }
+
+    .process .container .stage-title .inactive-stage {
+        width: max-content;
+        height: max-content;
+        background: transparent;
+        color: var(--light-txt-color);
+        border-left: 0.25rem solid var(--light-txt-color);
+        padding: 1.25rem 1.875rem;
+        font-size: 1.0rem;
+    }
+
+    .process .container .stage-title p .txt {
+        display: inline;
+    }
+
+    .process .container .stage-info {
+        width: 80%;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .process .container .stage-info .img-wrapper {
+        width: 45%;
+        margin-left: -3.75rem;
+    }
+
+    .process .container .stage-info .txt-wrapper {
+        width: 55%;
+    }
 }
 
 /* 1200px */
@@ -378,6 +479,36 @@
 
     .portfolio>.content>.img-wrapper img {
         width: 60%;
+    }
+
+    .process .container .stage-title,
+    .process .container .stage-info {
+        padding-left: 3.125rem;
+    }
+
+    .process {
+        padding-bottom: 3.125rem;
+        padding-right: 3.125rem;
+        margin-top: 3.125rem;
+    }
+
+    .process .container .stage-title {
+        width: 25%;
+        padding-left: 6.25rem;
+    }
+
+    .process .container .stage-info {
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        width: 75%;
+    }
+
+    .process .container .stage-info>div:last-child {
+        margin-left: 3.125rem;
+    }
+
+    .process .container .stage-info .img-wrapper {
+        margin-left: -6.25rem;
     }
 
     .cta-rem {
