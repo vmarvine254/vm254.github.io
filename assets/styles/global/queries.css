@@ -237,10 +237,11 @@
     }
 
     .services>.title {
-        min-width: 280px;
+        width: 30%;
     }
 
     .services>.content {
+        width: 70%;
         padding: 0;
         margin-left: 30px;
     }
