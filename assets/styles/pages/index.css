@@ -263,7 +263,7 @@
     width: 24px;
     height: 24px;
     background: var(--variant-color);
-    color: var(--variant-color-black-555);
+    color: var(--light-txt-color);
     font-size: 0.875rem;
 }
 
