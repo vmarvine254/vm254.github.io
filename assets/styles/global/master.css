@@ -23,9 +23,9 @@
     --primary-txt-color: #000000;
     --dark-txt-color: #ffffff;
     --light-txt-color: #888;
-    --accent-color: #e6e6e6;
+    --accent-color: #f5f5f5;
     --primary-btn-color: #222;
-    --variant-color: #f5f5f5;
+    --variant-color: #e6e6e6;
 }
 *,
 *::before,
