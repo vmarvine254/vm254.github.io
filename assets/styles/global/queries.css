@@ -615,8 +615,8 @@
 }
 
 /* 1500px */
-@media screen and (min-width: 93.75rem){
-    main{
+@media screen and (min-width: 93.75rem) {
+    main {
         max-width: 93.75rem;
         margin: auto;
     }
