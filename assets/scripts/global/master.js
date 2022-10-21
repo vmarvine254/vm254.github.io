@@ -27,11 +27,8 @@ function menuMain() {
 menuMain();
 
 function darkMode() {
-    var darkModeIcon = document.querySelector(".dark-mode");
-    var lightModeIcon = document.querySelector(".light-mode");
-
-    var lightMode = localStorage.getItem("lightMode");
-    lightModeBtn = document.querySelector(".theme-mode");
+    let lightMode = localStorage.getItem("lightMode");
+    let lightModeBtn = document.querySelector(".theme-mode");
 
     lightModeEnable = () => {
         document.body.classList.add("light-mode");
