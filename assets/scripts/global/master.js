@@ -25,7 +25,11 @@ function menuMain() {
     }
 }
 menuMain();
+
 function darkMode() {
+    var darkModeIcon = document.querySelector(".dark-mode");
+    var lightModeIcon = document.querySelector(".light-mode");
+
     var lightMode = localStorage.getItem("lightMode");
     lightModeBtn = document.querySelector(".theme-mode");
 
