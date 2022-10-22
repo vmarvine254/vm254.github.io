@@ -1,11 +1,21 @@
 :root {
-    --body-color: #002B26;
+    --variant-body-color: #002B26;
     --primary-txt-color: #fff;
     --dark-txt-color: #000;
     --light-txt-color: #999;
     --accent-color: #2c2900;
     --primary-btn-color: #fc0;
     --variant-color: #004B3E;
+
+    /* --fixed-color-1:#ff6600;
+    --fixed-color-2:#ff6600;
+    --fixed-color-3:#ff6600;
+
+
+    --variant-color-1:#555;
+    --variant-color-2:#ffe6d5;
+    --variant-color-3:#fca;
+    --variant-color-4:#ff6600; */
 
     --primary-font-family: "Molengo", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --secondary-font-family: "Halant", 'Times New Roman', Times, serif;
@@ -19,13 +29,26 @@
 }
 
 .light-mode {
-    --body-color: #f3fff2;
-    --primary-txt-color: #000000;
     --dark-txt-color: #ffffff;
-    --light-txt-color: #888;
-    --accent-color: #fffbbf;
-    --primary-btn-color: #2c2900;
-    --variant-color: #e4ffc7;
+    --accent-color: #eeefff;
+    --variant-color: #e3f0ff;
+
+    --variant-body-color: #fff;
+    --variant-color-fff: #fff;
+    --fixed-color-fff: #fff;
+    --primary-txt-color: #000;
+    --variant-color-000: #000;
+    --fixed-color-000: #000;
+    --secondary-txt-color: #555;
+    --variant-color-555: #555;
+    --fixed-color-555: #555;
+    --primary-btn-color: #fff;
+    --primary-btn-bgcolor: #5c4200;
+    --secondary-btn-color: #000;
+    --variant-accent-color-2: #e0cea1;
+    --variant-accent-color-1: #fcedc7;
+    --footer-bgcolor: #231900;
+    --footer-color: #fff;
 }
 
 *,
@@ -45,7 +68,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: var(--default-line-height);
-    background: var(--body-color);
+    background: var(--variant-body-color);
 }
 
 h1 {
@@ -99,9 +122,9 @@ a {
     align-items: center;
     justify-content: center;
     width: max-content !important;
-    background: var(--primary-btn-color);
+    background: var(--primary-btn-bgcolor);
     border: 0.0625rem solid transparent;
-    color: var(--dark-txt-color);
+    color: var(--primary-btn-color);
     padding: var(--btn-padding);
     text-decoration: none;
     outline: none;
@@ -135,7 +158,7 @@ a {
     background: transparent;
     border: none;
     outline: none;
-    color: var(--primary-txt-color);
+    color: var(--secondary-btn-color);
     cursor: pointer;
     text-decoration: none;
     width: max-content;
@@ -151,7 +174,7 @@ a {
     left: 0;
     width: 100%;
     height: 0.0625rem;
-    background: var(--primary-txt-color);
+    background: var(--secondary-btn-color);
     transition: all 0.3s ease;
 }
 
@@ -171,7 +194,7 @@ a {
     background: transparent;
     border: none;
     outline: none;
-    color: var(--primary-txt-color);
+    color: var(--secondary-btn-color);
     cursor: pointer;
     text-decoration: none;
     width: max-content;
@@ -183,7 +206,7 @@ a {
 .btn-2::after {
     content: "";
     position: absolute;
-    border: 0.0625rem solid var(--primary-txt-color);
+    border: 0.0625rem solid var(--secondary-btn-color);
     width: 100%;
     height: 100%;
     transition: all 0.3s ease;
@@ -265,7 +288,7 @@ header {
     width: 40%;
     padding: 0.9375rem 1.25rem;
     color: var(--primary-txt-color);
-    background: var(--variant-color);
+    background: var(--variant-accent-color-2);
 }
 
 .r-n-c .cta-btn,
@@ -316,13 +339,13 @@ header {
     position: relative;
     height: 100%;
     width: 0%;
-    background: var(--body-color);
+    background: var(--variant-body-color);
     transition: all 0.5s ease;
 }
 
 .menu-content nav {
     padding: 1.25rem;
-    color: var(--variant-color-black-000);
+    color: var(--primary-txt-color);
     justify-content: space-between;
 }
 
@@ -331,7 +354,7 @@ header {
     font-weight: 500;
     user-select: none;
     cursor: pointer;
-    color: var(--variant-color-black-000);
+    color: var(--variant-accent-color-2);
 }
 
 .menu-content nav .close-menu {
@@ -340,13 +363,13 @@ header {
 }
 
 footer {
-    background: transparent;
-    color: var(--primary-txt-color);
+    background: var(--footer-bgcolor);
+    color: var(--footer-color);
     padding: 0.625rem 1.25rem;
 }
 
 footer a {
-    color: var(--primary-txt-color);
+    color: var(--footer-color);
 }
 
 .footer-policies {
