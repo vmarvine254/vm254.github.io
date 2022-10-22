@@ -349,7 +349,7 @@ header {
     font-weight: 500;
     user-select: none;
     cursor: pointer;
-    color: var(--variant-accent-color-2);
+    color: var(--variant-color-000);
 }
 
 .menu-content nav .close-menu {
