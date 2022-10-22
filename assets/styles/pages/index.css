@@ -1,5 +1,5 @@
 .hero {
-    background: var(--accent-color);
+    background: var(--variant-accent-color-1);
     padding: 6.25rem 1.25rem;
     width: 100%;
     max-width: max-content;
@@ -9,6 +9,7 @@
 .hero>h1 {
     margin: 1.25rem 0rem;
     text-align: center;
+    color: var(--primary-btn-bgcolor);
 }
 
 .hero>div {
@@ -22,9 +23,9 @@
     align-items: center;
     justify-content: center;
     width: max-content !important;
-    background: var(--primary-btn-color);
+    background: var(--primary-btn-bgcolor);
     border: 0.0625rem solid transparent;
-    color: var(--dark-txt-color);
+    color: var(--primary-btn-color);
     padding: var(--btn-padding);
     text-decoration: none;
     outline: none;
@@ -40,7 +41,7 @@
     left: 0;
     height: 100%;
     width: 0%;
-    background: var(--accent-color);
+    background: var(--variant-accent-color-1);
     transition: all 0.3s ease;
     z-index: -1;
 }
@@ -48,7 +49,7 @@
 .hero .cta-btn:hover::before,
 .cta-btn:hover {
     width: 100%;
-    color: var(--primary-btn-color);
+    color: var(--secondary-btn-color);
 }
 
 .why-me {
@@ -64,13 +65,13 @@
     height: 100%;
     right: 0;
     top: 0;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-2);
     z-index: -1;
 }
 
 .why-me>div {
     align-self: flex-end;
-    background: var(--accent-color);
+    background: var(--variant-accent-color-1);
     width: calc(100% - 20px);
     padding: 1.875rem 0rem;
 }
@@ -98,6 +99,7 @@
 
 .why-me .txt-wrapper>h3 {
     margin: 1.875rem 0rem;
+    color: var(--primary-btn-bgcolor);
 }
 
 .why-me .txt-wrapper>div {
@@ -121,7 +123,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-1);
     height: 100%;
     left: 0;
     top: 0;
@@ -129,11 +131,12 @@
 }
 
 .services>.title {
-    color: var(--primary-txt-color);
+    color: var(--primary-btn-bgcolor);
 }
 
 .services>.title>p {
     margin: 1.25rem 0rem;
+    color: var(--primary-txt-color);
 }
 
 .services>.title .slider span {
@@ -165,7 +168,7 @@
 }
 
 .services>.content>div {
-    background: var(--accent-color);
+    background: var(--variant-accent-color-2);
     color: var(--primary-txt-color);
     padding: 1.875rem 1.25rem;
     min-width: 280px;
@@ -203,7 +206,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-1);
     height: 100%;
     right: 0;
     top: 0;
@@ -218,7 +221,7 @@
     text-align: right;
     padding: 0.625rem 0rem;
     padding-right: 1.25rem;
-    color: var(--primary-txt-color);
+    color: var(--primary-btn-bgcolor);
 }
 
 .portfolio>.content {
@@ -265,7 +268,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-1);
     width: 50%;
     height: 100%;
     z-index: -1;
@@ -273,7 +276,7 @@
 
 .process>.title {
     width: 70%;
-    color: var(--primary-txt-color);
+    color: var(--primary-btn-bgcolor);
     text-align: right;
     padding: 0.625rem 0rem;
     padding-right: 0.625rem;
@@ -317,6 +320,7 @@
 
 .process .container .stage-info .txt-wrapper>h3 {
     margin: 1.25rem 0rem;
+    color: var(--secondary-txt-color);
 }
 
 .process .container .stage-info .txt-wrapper>div {
@@ -358,7 +362,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-1);
     height: 100%;
     right: 0;
     top: 0;
@@ -367,7 +371,7 @@
 
 .testimony>.l-t-wrapper {
     padding: 0rem 1.25rem;
-    background: var(--body-color);
+    background: var(--variant-body-color);
     width: 100%;
 }
 
@@ -377,7 +381,7 @@
 }
 
 .testimony>.l-t-wrapper>span {
-    color: var(--light-txt-color);
+    color: var(--secondary-txt-color);
 }
 
 .testimony>.r-t-wrapper {
@@ -389,7 +393,7 @@
 .testimony #sp-font {
     line-height: 1;
     font-size: 5rem;
-    color: var(--primary-btn-color);
+    color: var(--primary-btn-bgcolor);
     font-style: normal;
 }
 
@@ -414,7 +418,7 @@
 
 .l-slider,
 .r-slider {
-    background: var(--primary-txt-color);
+    background: var(--variant-accent-color-2);
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -427,7 +431,7 @@
 .cta-rem {
     width: 100%;
     height: max-content;
-    background-color: var(--variant-color);
+    background-color: var(--variant-accent-color-2);
     background-image: url(../css-img/cta-rem-bg.png);
     background-size: contain;
     background-repeat: repeat;
@@ -439,7 +443,7 @@
     position: relative;
     max-width: 37.5rem;
     padding: 3.125rem 1.25rem;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-2);
     color: var(--primary-txt-color);
 }
 
