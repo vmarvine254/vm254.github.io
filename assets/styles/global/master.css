@@ -140,7 +140,7 @@ a {
     left: 0;
     height: 100%;
     width: 0%;
-    background: var(--variant-color);
+    background: var(--variant-accent-color-2);
     transition: all 0.3s ease;
     z-index: -1;
 }
