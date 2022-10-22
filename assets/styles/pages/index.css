@@ -291,16 +291,16 @@
 .process .container .stage-title .active-stage {
     width: 36px;
     height: 36px;
-    background: var(--accent-color);
-    color: var(--primary-txt-color);
+    background: var(--variant-color-000);
+    color: var(--variant-color-fff);
     font-size: 1.0rem;
 }
 
 .process .container .stage-title .inactive-stage {
     width: 24px;
     height: 24px;
-    background: var(--variant-color);
-    color: var(--light-txt-color);
+    background: var(--variant-accent-color-2);
+    color: var(--variant-color-555);
     font-size: 0.875rem;
 }
 
